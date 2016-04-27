@@ -1,7 +1,122 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        /* Una columna */
+        @media all and (min-width: 500px) {
+            article {
+                width: 100%;
+            }
+
+            div.contenedor {
+                width: 100%;
+                margin: auto;
+            }
+        }
+        /* Dos columnas */
+        @media all and (min-width: 1000px) {
+            article {
+                width: 49%;
+            }
+            div.contenedor {
+                width: 100%;
+                margin: auto;
+            }
+        }
+
+        /* Tres columnas */
+        @media all and (min-width: 1500px) {
+            article {
+                width: 33%;
+            }
+            div.contenedor {
+                width: 80%;
+                margin: auto;
+            }
+        }
+
+        article {
+            display: block;
+            float: left;
+            box-sizing: border-box;
+            padding: 30px;
+            background-color: cadetblue;
+            border-width: 2px;
+            border-color: white;
+            border-style: solid;
+        }
+        article h1 {
+            text-align: center;
+            font-size: 180%;
+        }
+        div.cuando {
+            display: block;
+            float: left;
+            box-sizing: border-box;
+            width: 100%;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 150%;
+        }
+    </style>
+</head>
 <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+    <div class="contenedor">
+        <div class="cuando">Publicado hoy</div>
+        <article>
+            <img src="Test.svg" />
+            <h1>Tendencia de lo que sea....</h1>
+        </article>
+        <article>
+            <img src="Test.svg" />
+            <h1>Tendencia de lo que sea....</h1>
+        </article>
+        <article>
+            <img src="Test.svg" />
+            <h1>Tendencia de lo que sea....</h1>
+        </article>
+        <article>
+            <img src="Test.svg" />
+            <h1>Tendencia de lo que sea....</h1>
+        </article>
+        <div class="cuando">Publicado hace 7 días</div>
+        <article>
+            <img src="Test.svg" />
+            <h1>Tendencia de lo que sea....</h1>
+        </article>
+        <article>
+            <img src="Test.svg" />
+            <h1>Tendencia de lo que sea....</h1>
+        </article>
+        <article>
+            <img src="Test.svg" />
+            <h1>Tendencia de lo que sea....</h1>
+        </article>
+        <article>
+            <img src="Test.svg" />
+            <h1>Tendencia de lo que sea....</h1>
+        </article>
+        <article>
+            <img src="Test.svg" />
+            <h1>Tendencia de lo que sea....</h1>
+        </article>
+        <div class="cuando">Publicado 1/Abr/2016</div>
+        <article>
+            <img src="Test.svg" />
+            <h1>Tendencia de lo que sea....</h1>
+        </article>
+        <article>
+            <img src="Test.svg" />
+            <h1>Tendencia de lo que sea....</h1>
+        </article>
+        <article>
+            <img src="Test.svg" />
+            <h1>Tendencia de lo que sea....</h1>
+        </article>
+
+    </div>
 </body>
 </html>
