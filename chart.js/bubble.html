@@ -109,7 +109,8 @@
             }]
         };
 
-        window.onload = function() {
+        window.onload = function () {
+            Chart.defaults.global.defaultFontSize = 20;//
             var ctx = document.getElementById("canvas").getContext("2d");
             window.myChart = new Chart(ctx, {
                 type: 'bubble',
