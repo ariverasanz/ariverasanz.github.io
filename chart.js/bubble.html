@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div id="container" style="width: 75%;">
+    <div id="container" style="width: 100%;">
         <canvas id="canvas"></canvas>
     </div>
     <button id="randomizeData">Randomize Data</button>
@@ -110,7 +110,7 @@
         };
 
         window.onload = function () {
-            Chart.defaults.global.defaultFontSize = 20;//
+            Chart.defaults.global.defaultFontSize = 30;//
             var ctx = document.getElementById("canvas").getContext("2d");
             window.myChart = new Chart(ctx, {
                 type: 'bubble',
