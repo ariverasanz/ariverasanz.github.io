@@ -1,6 +1,5 @@
 <HTML>
     <head>
-        <script src="list.js"></script>
         <script>
             Date.prototype.addMilisecons = function(ms) {
                 this.setTime(this.getTime() + ms);
@@ -18,7 +17,7 @@
                 scheduleContent(obj);
 
                 obj={
-                    'src': 'Countdown10s.mp4',
+                    'src': 'CountDown10s.mp4',
                     'mime': 'video/mp4',
                     'when':  new Date(new Date().addMilisecons(13000)).toISOString(),
                     'where': 'box'
@@ -107,6 +106,7 @@
             }
 
         </script>
+        <script src="list.js"></script>
     </head>
     <body style="background-color:black;">
         <div id="box">
