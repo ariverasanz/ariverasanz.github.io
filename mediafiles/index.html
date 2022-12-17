@@ -1,0 +1,115 @@
+<HTML>
+    <head>
+        <script src="list.js"></script>
+        <script>
+            Date.prototype.addMilisecons = function(ms) {
+                this.setTime(this.getTime() + ms);
+                return this;
+            }
+
+            window.onload = function () {
+
+                obj={
+                    'src': 'image3.jpg',
+                    'mime': 'image/jpeg',
+                    'when':  new Date(new Date().addMilisecons(3000)).toISOString(),
+                    'where': 'box'
+                }
+                scheduleContent(obj);
+
+                obj={
+                    'src': 'Countdown10s.mp4',
+                    'mime': 'video/mp4',
+                    'when':  new Date(new Date().addMilisecons(13000)).toISOString(),
+                    'where': 'box'
+                }
+
+                scheduleContent(obj);
+
+                obj={
+                    'src': 'image3.jpg',
+                    'mime': 'image/jpeg',
+                    'when':  new Date(new Date().addMilisecons(16000)).toISOString(),
+                    'where': 'box'
+                }
+                scheduleContent(obj);
+
+            }
+
+            function setTimeoutVideo(objVideo){
+                objVideo.play();
+                for (const child of objVideo.parentElement.children) {
+                    if (child === objVideo) child.style['z-index'] = 2
+                    else child.style['z-index'] = 1;
+                    console.log(child);
+                }
+            }
+
+            function scheduleVideo(content){
+                var video = document.createElement('video');
+
+                video.muted = 'muted'
+                video.preload = 'auto';
+                video.autoplay = false;
+                video.src = content.src;
+                video.style['position'] = "absolute";
+                video.style['z-index'] = "1";
+
+                const box = document.getElementById(content.where);
+                box.appendChild(video);
+
+                //set video to stop on last frame
+                video.addEventListener('ended', function() {
+                    this.pause();
+                    this.currentTime = this.duration;
+                }, false);
+
+                var timeToPlay = new Date(content.when) - new Date();
+                if (timeToPlay > 0) {
+                    console.log(timeToPlay);
+                    setTimeout(() => {setTimeoutVideo(video)},timeToPlay);
+                }
+
+            }
+
+            function setTimeoutImage(objImage){
+                for (const child of objImage.parentElement.children) {
+                    if (child === objImage) child.style['z-index'] = 2
+                    else child.style['z-index'] = 1;
+                    console.log(child);
+
+                }
+            }
+
+            function scheduleImage(content){
+                var image = document.createElement('img');
+
+                image.src = content.src;
+                image.style['position'] = "absolute";
+                image.style['z-index'] = "1";
+
+                const box = document.getElementById(content.where);
+                box.appendChild(image);
+
+                var timeToPlay = new Date(content.when) - new Date();
+                if (timeToPlay > 0) {
+                    console.log(timeToPlay);
+                    setTimeout(() => {setTimeoutImage(image)},timeToPlay);
+                }
+
+            }
+
+            function scheduleContent(content){
+                if (content.mime == 'video/mp4')
+                    scheduleVideo(content)
+                else if (content.mime == 'image/jpeg')
+                    scheduleImage(content);
+            }
+
+        </script>
+    </head>
+    <body style="background-color:black;">
+        <div id="box">
+        </div>
+    </body>
+</HTML>
