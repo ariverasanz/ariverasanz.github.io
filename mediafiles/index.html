@@ -6,8 +6,23 @@
                 return this;
             }
 
-            window.onload = function () {
+            Date.prototype.substract = function(dt) {
+                return this-dt;
+            }
 
+            const waitFor = delay => new Promise(resolve => setTimeout(resolve, delay));
+            const waitUntil = date => new Promise(resolve => setTimeout(resolve, date - Date.now()));
+
+            const precacheMiliseconds = 5000;
+            const disposeMiliseconds = 1000;
+
+            window.onload = function () {
+                console.log(ObjPL);
+                player(ObjPL);
+
+                    
+
+/*
                 obj={
                     'src': 'image3.jpg',
                     'mime': 'image/jpeg',
@@ -32,7 +47,29 @@
                     'where': 'box'
                 }
                 scheduleContent(obj);
+*/
+            }
 
+            async function player(objPlaylist){
+                while (true) {
+                    content=objPlaylist[0];
+                    if (content) {
+                        console.log(new Date(content.when).substract(new Date()));
+                        if (new Date(content.when).substract(new Date()) < 0){
+                            objPlaylist.shift();
+                            console.log("In the past, skipping");
+                            continue;
+                        }
+                        else if (new Date(content.when).substract(new Date()) < 10000) {
+                            objPlaylist.shift();
+                            console.log("Sheduling ", content);
+                            scheduleContent(content);
+                        }
+                        else console.log("Next loop, waiting");
+                    }
+                    else console.log("No playlist, waiting");
+                    await waitFor(1000);
+                }
             }
 
             function setTimeoutVideo(objVideo){
@@ -66,7 +103,7 @@
                 var timeToPlay = new Date(content.when) - new Date();
                 if (timeToPlay > 0) {
                     console.log(timeToPlay);
-                    setTimeout(() => {setTimeoutVideo(video)},timeToPlay);
+                    return waitFor(() => {setTimeoutVideo(video)},timeToPlay);
                 }
 
             }
@@ -93,17 +130,19 @@
                 var timeToPlay = new Date(content.when) - new Date();
                 if (timeToPlay > 0) {
                     console.log(timeToPlay);
-                    setTimeout(() => {setTimeoutImage(image)},timeToPlay);
+                    return waitFor(() => {setTimeoutImage(image)},timeToPlay);
                 }
 
             }
 
             function scheduleContent(content){
                 if (content.mime == 'video/mp4')
-                    scheduleVideo(content)
+                    return scheduleVideo(content)
                 else if (content.mime == 'image/jpeg')
-                    scheduleImage(content);
+                    return scheduleImage(content);
             }
+
+            
 
         </script>
         <script src="list.js"></script>
