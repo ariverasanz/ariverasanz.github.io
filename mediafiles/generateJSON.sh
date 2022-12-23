@@ -3,19 +3,28 @@
 echo 'ObjPL='
 
 echo '[{ 
+    "uuid": "'$(uuidgen)'",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
-    "when":  new Date(new Date().addMilisecons(3000)).toISOString(), 
+    "when":  new Date(new Date().addMilisecons(0)).toISOString(), 
     "where": "box" 
   }'
 
 for i in {1..100}   # you can also use {0..9}
 do
-  j=$(expr ${i} '*' 3000)
+  j=$(expr ${i} '*' 6000)
   echo ',{ 
+    "uuid": "'$(uuidgen)'",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons('${j}')).toISOString(), 
+    "where": "box" 
+  }' 
+  echo ',{ 
+    "uuid": "'$(uuidgen)'",
+    "src": "CountDown10s.mp4", 
+    "mime": "video/mp4", 
+    "when":  new Date(new Date().addMilisecons('${j}'+3000)).toISOString(), 
     "where": "box" 
   }' 
 done

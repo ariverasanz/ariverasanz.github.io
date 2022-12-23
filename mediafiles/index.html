@@ -52,94 +52,88 @@
 
             async function player(objPlaylist){
                 while (true) {
-                    content=objPlaylist[0];
-                    if (content) {
-                        console.log(new Date(content.when).substract(new Date()));
-                        if (new Date(content.when).substract(new Date()) < 0){
-                            objPlaylist.shift();
-                            console.log("In the past, skipping");
-                            continue;
-                        }
-                        else if (new Date(content.when).substract(new Date()) < 10000) {
-                            objPlaylist.shift();
-                            console.log("Sheduling ", content);
-                            scheduleContent(content);
-                        }
-                        else console.log("Next loop, waiting");
+                    const content=objPlaylist[0];
+                    if (!content) {
+                        console.log("No playlist, waiting");
+                        await waitFor(1000);
+                        continue;
                     }
-                    else console.log("No playlist, waiting");
-                    await waitFor(1000);
+                    if (new Date(content.when).substract(new Date()) < 0){
+                        console.log("Slot in the past, skipping");
+                        objPlaylist.shift();
+                        continue;
+                    }
+                    if (new Date(content.when).substract(new Date()) < precacheMiliseconds) {
+                        console.log("Sheduling ", content);
+                        objPlaylist.shift();
+                        scheduleContent(content);
+                        continue;
+                    }
+                    await waitUntil(new Date(content.when).addMilisecons(-precacheMiliseconds));
                 }
             }
 
-            function setTimeoutVideo(objVideo){
-                objVideo.play();
-                for (const child of objVideo.parentElement.children) {
-                    if (child === objVideo) child.style['z-index'] = 2
-                    else child.style['z-index'] = 1;
-                    console.log(child);
+            function precacheContent(content){
+                if (content.mime == 'video/mp4'){
+                    var newElement = document.createElement('video');
+                    newElement.id = content.uuid;
+                    newElement.muted = 'muted'
+                    newElement.preload = 'auto';
+                    newElement.autoplay = false;
+                    newElement.src = content.src;
+                    newElement.style['position'] = "absolute";
+                    newElement.style['z-index'] = "1";
+                    //set video to stop on last frame
+                    newElement.addEventListener('ended', function() {
+                        this.pause();
+                        this.currentTime = this.duration;
+                    }, false);
+                    const box = document.getElementById(content.where);
+                    box.appendChild(newElement);
+                }
+                else if (content.mime == 'image/jpeg'){
+                    var newElement = document.createElement('img');
+                    newElement.id = content.uuid;
+                    newElement.src = content.src;
+                    newElement.style['position'] = "absolute";
+                    newElement.style['z-index'] = "1";
+                    const box = document.getElementById(content.where);
+                    box.appendChild(newElement);
                 }
             }
 
-            function scheduleVideo(content){
-                var video = document.createElement('video');
-
-                video.muted = 'muted'
-                video.preload = 'auto';
-                video.autoplay = false;
-                video.src = content.src;
-                video.style['position'] = "absolute";
-                video.style['z-index'] = "1";
-
-                const box = document.getElementById(content.where);
-                box.appendChild(video);
-
-                //set video to stop on last frame
-                video.addEventListener('ended', function() {
-                    this.pause();
-                    this.currentTime = this.duration;
-                }, false);
-
-                var timeToPlay = new Date(content.when) - new Date();
-                if (timeToPlay > 0) {
-                    console.log(timeToPlay);
-                    return waitFor(() => {setTimeoutVideo(video)},timeToPlay);
+            function playContent(content){
+                const objElement = document.getElementById(content.uuid);
+                if (content.mime == 'video/mp4'){
+                    objElement.play();
+                    for (const child of objElement.parentElement.children) {
+                        if (child === objElement) child.style['z-index'] = 2
+                        else child.style['z-index'] = 1;
+                        console.log(child);
+                    }
                 }
-
-            }
-
-            function setTimeoutImage(objImage){
-                for (const child of objImage.parentElement.children) {
-                    if (child === objImage) child.style['z-index'] = 2
-                    else child.style['z-index'] = 1;
-                    console.log(child);
-
+                else if (content.mime == 'image/jpeg'){
+                    for (const child of objElement.parentElement.children) {
+                        if (child === objElement) child.style['z-index'] = 2
+                        else child.style['z-index'] = 1;
+                        console.log(child);
+                    }
                 }
             }
 
-            function scheduleImage(content){
-                var image = document.createElement('img');
-
-                image.src = content.src;
-                image.style['position'] = "absolute";
-                image.style['z-index'] = "1";
-
-                const box = document.getElementById(content.where);
-                box.appendChild(image);
-
-                var timeToPlay = new Date(content.when) - new Date();
-                if (timeToPlay > 0) {
-                    console.log(timeToPlay);
-                    return waitFor(() => {setTimeoutImage(image)},timeToPlay);
-                }
-
-            }
-
-            function scheduleContent(content){
+            function disposeContent(content){
                 if (content.mime == 'video/mp4')
-                    return scheduleVideo(content)
+                    return true ; //scheduleVideo(content)
                 else if (content.mime == 'image/jpeg')
-                    return scheduleImage(content);
+                    return true; //scheduleImage(content);
+            }
+
+            async function scheduleContent(content){
+                precacheContent(content);
+                await waitUntil(new Date(content.when));
+                playContent(content);
+                await waitUntil(new Date(content.when).addMilisecons(disposeMiliseconds));
+                disposeContent(content);
             }
 
             
