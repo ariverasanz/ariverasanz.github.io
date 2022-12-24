@@ -1,6 +1,6 @@
 <HTML>
     <head>
-        <title>v0.27</title>
+        <title>v0.29</title>
         <script>
             Date.prototype.addMilisecons = function(ms) {
                 this.setTime(this.getTime() + ms);
@@ -70,9 +70,9 @@
                     newElement.preload = 'auto';
                     newElement.autoplay = false;
                     newElement.src = content.src;
-                    newElement.style['position'] = "absolute";
-                    newElement.style['z-index'] = "2";
-                    newElement.style['visibility'] = 'hidden';
+                    newElement.style.position = "absolute";
+                    newElement.style.zIndex = "2";
+                    newElement.style.visibility = 'hidden';
                     //set video to stop on last frame
                     newElement.addEventListener('ended', function() {
                         this.pause();
@@ -85,9 +85,9 @@
                     var newElement = document.createElement('img');
                     newElement.id = content.uuid;
                     newElement.src = content.src;
-                    newElement.style['position'] = "absolute";
-                    newElement.style['z-index'] = "2";
-                    newElement.style['visibility'] = 'hidden';
+                    newElement.style.position = "absolute";
+                    newElement.style.zIndex = "2";
+                    newElement.style.visibility = 'hidden';
                     const box = document.getElementById(content.where);
                     box.appendChild(newElement);
                 }
@@ -99,25 +99,25 @@
                 if (content.mime == 'video/mp4'){
                     objElement.play();
                     for (const child of objElement.parentElement.children) {
-                        if (child === objElement) {
-                            child.style['z-index'] = 2;
-                            child.style['visibility'] = 'visible';
+                        if (child.id == objElement.id) {
+                            child.style.zIndex = 2;
+                            child.style.visibility = 'visible';
                         }
                         else {   
-                            child.style['z-index'] = 1;
-                            child.style['visibility'] = 'hidden';
+                            child.style.zIndex = 1;
+                            child.style.visibility = 'hidden';
                         }
                     }
                 }
                 else if (content.mime == 'image/jpeg'){
                     for (const child of objElement.parentElement.children) {
-                        if (child === objElement) {
-                            child.style['z-index'] = 2;
-                            child.style['visibility'] = 'visible';
+                        if (child.id == objElement.id) {
+                            child.style.zIndex = 2;
+                            child.style.visibility = 'visible';
                         }
                         else {   
-                            child.style['z-index'] = 1;
-                            child.style['visibility'] = 'hidden';
+                            child.style.zIndex = 1;
+                            child.style.visibility = 'hidden';
                         }
                     }
                 }
