@@ -13,6 +13,8 @@
             const waitFor = delay => new Promise(resolve => setTimeout(resolve, delay));
             const waitUntil = date => new Promise(resolve => setTimeout(resolve, date - Date.now()));
 
+
+
             const precacheMiliseconds = 5000;
             const disposeMiliseconds = 1000;
 
@@ -20,34 +22,20 @@
                 console.log(ObjPL);
                 player(ObjPL);
 
-                    
-
-/*
-                obj={
-                    'src': 'image3.jpg',
-                    'mime': 'image/jpeg',
-                    'when':  new Date(new Date().addMilisecons(3000)).toISOString(),
-                    'where': 'box'
-                }
-                scheduleContent(obj);
-
-                obj={
-                    'src': 'CountDown10s.mp4',
-                    'mime': 'video/mp4',
-                    'when':  new Date(new Date().addMilisecons(13000)).toISOString(),
-                    'where': 'box'
-                }
-
-                scheduleContent(obj);
-
-                obj={
-                    'src': 'image3.jpg',
-                    'mime': 'image/jpeg',
-                    'when':  new Date(new Date().addMilisecons(16000)).toISOString(),
-                    'where': 'box'
-                }
-                scheduleContent(obj);
-*/
+                (function () {
+                    var old = console.log;
+                    var logger = document.getElementById('log');
+                    console.log = function (...messages) {
+                        for (let message of messages){
+                            if (typeof message == 'object') {
+                                logger.innerHTML += (JSON && JSON.stringify ? JSON.stringify(message) : message) + '<br />';
+                            } else {
+                                logger.innerHTML += message;
+                            }
+                        }
+                    }
+                    logger.innerHTML += '<br />';
+                })();
             }
 
             async function player(objPlaylist){
@@ -140,7 +128,9 @@
         <script src="list.js"></script>
     </head>
     <body style="background-color:black;">
-        <div id="box">
+        <div id="box" style="visibility: hidden;">
+        </div>
+        <div id="log" style="z-index: 100; color: bisque;">
         </div>
     </body>
 </HTML>
