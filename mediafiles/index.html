@@ -71,7 +71,8 @@
                     newElement.autoplay = false;
                     newElement.src = content.src;
                     newElement.style['position'] = "absolute";
-                    newElement.style['z-index'] = "1";
+                    newElement.style['z-index'] = "2";
+                    newElement.style['visibility'] = 'hidden';
                     //set video to stop on last frame
                     newElement.addEventListener('ended', function() {
                         this.pause();
@@ -85,7 +86,8 @@
                     newElement.id = content.uuid;
                     newElement.src = content.src;
                     newElement.style['position'] = "absolute";
-                    newElement.style['z-index'] = "1";
+                    newElement.style['z-index'] = "2";
+                    newElement.style['visibility'] = 'hidden';
                     const box = document.getElementById(content.where);
                     box.appendChild(newElement);
                 }
