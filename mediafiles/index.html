@@ -1,5 +1,6 @@
 <HTML>
     <head>
+        <title>v0.27</title>
         <script>
             Date.prototype.addMilisecons = function(ms) {
                 this.setTime(this.getTime() + ms);
@@ -96,14 +97,26 @@
                 if (content.mime == 'video/mp4'){
                     objElement.play();
                     for (const child of objElement.parentElement.children) {
-                        if (child === objElement) child.style['z-index'] = 2
-                        else child.style['z-index'] = 1;
+                        if (child === objElement) {
+                            child.style['z-index'] = 2;
+                            child.style['visibility'] = 'visible';
+                        }
+                        else {   
+                            child.style['z-index'] = 1;
+                            child.style['visibility'] = 'hidden';
+                        }
                     }
                 }
                 else if (content.mime == 'image/jpeg'){
                     for (const child of objElement.parentElement.children) {
-                        if (child === objElement) child.style['z-index'] = 2
-                        else child.style['z-index'] = 1;
+                        if (child === objElement) {
+                            child.style['z-index'] = 2;
+                            child.style['visibility'] = 'visible';
+                        }
+                        else {   
+                            child.style['z-index'] = 1;
+                            child.style['visibility'] = 'hidden';
+                        }
                     }
                 }
             }
