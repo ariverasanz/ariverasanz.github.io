@@ -22,20 +22,20 @@
                 console.log(ObjPL);
                 player(ObjPL);
 
-                    // (function () {
-                    //     var old = console.log;
-                    //     var logger = document.getElementById('log');
-                    //     console.log = function (...messages) {
-                    //         for (let message of messages){
-                    //             if (typeof message == 'object') {
-                    //                 logger.innerHTML += (JSON && JSON.stringify ? JSON.stringify(message) : message) + '<br />';
-                    //             } else {
-                    //                 logger.innerHTML += message;
-                    //             }
-                    //         }
-                    //     }
-                    //     logger.innerHTML += '<br />';
-                    // })();
+                    (function () {
+                        var old = console.log;
+                        var logger = document.getElementById('log');
+                        console.log = function (...messages) {
+                            for (let message of messages){
+                                if (typeof message == 'object') {
+                                    logger.innerHTML += (JSON && JSON.stringify ? JSON.stringify(message) : message);
+                                } else {
+                                    logger.innerHTML += message;
+                                }
+                            }
+                            logger.innerHTML += '<br>';
+                        }
+                    })();
             }
 
             async function player(objPlaylist){
@@ -91,6 +91,7 @@
             }
 
             function playContent(content){
+                console.log('Playing ',content.uuid)
                 const objElement = document.getElementById(content.uuid);
                 if (content.mime == 'video/mp4'){
                     objElement.play();
@@ -130,7 +131,7 @@
     <body style="background-color:black;">
         <div id="box">
         </div>
-        <div id="log" style="z-index: 100; color: bisque;">
+        <div id="log" style="position:absolute; z-index: 100; color: bisque;">
         </div>
     </body>
 </HTML>
