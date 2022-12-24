@@ -1,2109 +1,2409 @@
 ObjPL=
 [{ 
-    "uuid": "420BB2EA-6B46-4FE8-B384-2869734A0CB5",
+    "uuid": "7A1F8397-F950-4774-8298-B85BD00EFF0F",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(0)).toISOString(), 
     "where": "box" 
   }
 ,{ 
-    "uuid": "09F5EE77-52EC-4431-A9F7-8BAB7483CDAB",
+    "uuid": "50AE969E-D9DA-4041-9483-CD12020782F1",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(9000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "36879256-B3C8-49EA-A2D5-E74304372F80",
+    "uuid": "0920A4C6-108B-476E-BAF9-CC1C0CFC6583",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(9000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "4DED2D25-8555-40DE-9AA2-311429C40A15",
+    "uuid": "85C7242F-41C2-4A7E-89B9-36AE4CBA3F8D",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(9000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "38CFC57D-151A-417D-B75E-B905819549D5",
+    "uuid": "0FBB957B-6540-49E4-B99E-3464A4A991FC",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(18000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "070D5295-B3AD-42BC-9241-995FE2C2CD2C",
+    "uuid": "AB21A281-4906-4395-9C61-57E9A41D14C9",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(18000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "015A7648-A5E3-4C52-9A2C-F3D0E66BD294",
+    "uuid": "E6AEE1D0-9DA5-4DD0-8A3A-5466D99AA754",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(18000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "DC1F820D-A932-48DF-9BB9-D180A4F65A41",
+    "uuid": "098BE095-3C3C-4D0A-8B7B-963A27FDD1E6",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(27000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "A7EAF30F-93CB-4A12-AD66-1B6FF479CD11",
+    "uuid": "CB411C87-E196-4E4E-981F-2A484DCBF42C",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(27000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "ADFE91D4-B34D-4C55-9240-3584BB5F7E53",
+    "uuid": "10AD4412-0697-4264-83D8-BC548CF8F660",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(27000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "20735BF1-C3E9-455D-9F00-ADE4A872D917",
+    "uuid": "49C54EC3-B50A-43DE-90CC-21BC9EE57372",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(36000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "086F183E-3B2A-431B-8AB8-E9C045B553F5",
+    "uuid": "D851DBBD-2353-4854-AE09-EC0ED38B1AC8",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(36000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "72914BB9-C195-46BA-851B-F25FDE9A8A67",
+    "uuid": "D08AF817-4687-4496-813E-D3CC7398CD3B",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(36000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "EE8C9270-3536-4B24-96A1-BBBA314AFB89",
+    "uuid": "13E6604D-8897-4053-A961-95D059A8FB52",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(45000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "51FFFD35-37D2-4896-A221-8316405EAE48",
+    "uuid": "BB116CA3-CD3C-412A-BD4B-58BD466C2372",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(45000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "496277E9-D004-40FA-ABAC-1C121815DF0F",
+    "uuid": "4A6760FB-586B-49E1-8F19-CA74CE19CA1C",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(45000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "2E01D5AB-DB33-423B-985D-34E5E9025B56",
+    "uuid": "26596592-9069-48C0-BABC-D71FB7700957",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(54000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "6DA3DB47-EFAE-4EA8-844C-91DEE7726CF5",
+    "uuid": "D215634B-BA11-423E-B88C-A620BC4CA286",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(54000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "73BE101E-9D80-4DBD-B856-93B45BFEE096",
+    "uuid": "4AA97C56-9B9E-44ED-B9FE-C93E5ED008DF",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(54000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "7372E7CA-D383-4E80-8C46-C8DB29EF39C2",
+    "uuid": "275CBBDB-B03A-4D3D-8B2E-C951D824399F",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(63000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "202FFF4C-F4E4-4726-8768-3567AA77B5C6",
+    "uuid": "9F8E425D-D0CB-4D7F-A07A-6649F5F4A580",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(63000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "5D362AB5-12C9-473B-9FF9-92AA2E6FCD6E",
+    "uuid": "A8F02D3E-48D2-4B64-B0C8-3B4CBB7ABE46",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(63000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "BDCF5AFC-F966-498D-9BAA-138A4B6CCA8E",
+    "uuid": "30C3552B-EE42-408B-B11A-2DEDB20D5066",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(72000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "E12B3D08-E68B-4E2F-A81C-3CB609A77420",
+    "uuid": "BFD8A170-DE89-45BC-BC70-520E61423F1C",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(72000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "109E60BB-A17B-4DAA-8DB1-41488EA64442",
+    "uuid": "540889EB-DAC2-4D1C-AB85-B8760BA1B8FB",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(72000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "1B05F78F-0675-4DBC-AE9B-81F0FE45035C",
+    "uuid": "EB4F09C7-F218-41FF-B3B2-8BA797908D76",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(81000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "9D9A982F-0FC4-4A0F-BCAA-C52422275163",
+    "uuid": "5BF7B304-D7C5-416C-919D-A5BAE751AA62",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(81000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "6C9C1B6F-85F4-41E7-A1EC-C73AEF8D3640",
+    "uuid": "5225A1D3-4677-4C14-8D2B-5165341032A3",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(81000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "2F7A9F86-107F-4423-8C62-EE973FD35B8A",
+    "uuid": "AAA58C3E-FAEE-475B-A0CA-557742ADAEF0",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(90000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "7584B122-AE14-441C-BA85-F68BF4FA5F47",
+    "uuid": "30D623F7-AF69-4946-B8CD-5BFF940619AA",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(90000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "25AEDB24-F289-40F3-8788-B01F022987C9",
+    "uuid": "087688C6-C5AC-4507-B257-C63C51E19ECA",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(90000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "048E1E56-9D32-4310-8378-0539ACEF6197",
+    "uuid": "1A81400A-C252-408F-A5DE-B712BCD042FD",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(99000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "8AB78AF4-3AFE-450B-A89D-8B88E74BFADD",
+    "uuid": "21948F8A-BC7E-40E2-9718-AAF7F9BEE264",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(99000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "1785DE5C-071E-41C1-A390-73031BD07BB3",
+    "uuid": "777D1C58-F7D3-4678-97E0-C028A2A71282",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(99000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "9D4BB7AA-5685-4D66-BE39-B74D3252C4D7",
+    "uuid": "8FDB88E9-47EA-4EAB-AC3E-4CADE7AD10AB",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(108000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "C65A0248-05E0-4451-AAA4-9C63B455BB9C",
+    "uuid": "030041A2-1963-403E-A4A6-69BCDB9FA186",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(108000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "2A5F6394-F717-4A0D-B148-A1B040217E2D",
+    "uuid": "F2A205A8-01D1-46E1-9C38-AA4EF6BDF7AD",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(108000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "191E81DB-F412-4164-B5E6-A1423FE52322",
+    "uuid": "2847DB10-B48A-4AF7-AF46-89B5D48AF608",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(117000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "33AD7EBD-3F68-449B-AAC5-E2701A657064",
+    "uuid": "8E208A5B-E4DF-4A00-AF6D-D99E75EE73A9",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(117000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "E721E60C-5C51-4A17-93C5-4E729F2D7601",
+    "uuid": "D8CF5167-661A-43E8-AFC1-936F95A9E3A7",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(117000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "9959B66C-1900-4660-8094-5F16BE7C3D97",
+    "uuid": "66201A77-2DFE-4FEA-83F0-E897815BFEC3",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(126000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "BE540BF9-1F1C-4B24-81FC-EAD984C484F9",
+    "uuid": "B76E1382-4ABF-40D4-8AAF-BA6F1257298F",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(126000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "8ADED985-380B-42EE-99BD-08768EFBE2A3",
+    "uuid": "9BD686C5-18A9-49F5-B085-7E9722EDABAA",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(126000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "7A426BCC-D031-43EF-860B-CF743F940D88",
+    "uuid": "B38A1F9A-58D0-4937-8B12-DEFC35DA935A",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(135000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "BEBC132A-F155-4314-B94F-4D82E5CC7295",
+    "uuid": "63F1FED5-EC65-49C8-81E9-85EB5AE810AC",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(135000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "FE5989F5-3BF4-43FC-B65A-8291140F4D81",
+    "uuid": "D86D466B-CA47-4F6B-AD2F-8AB1EE574C53",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(135000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "E50B60D2-2E34-4E87-B75E-EE569347292C",
+    "uuid": "4FF3F2E2-92FC-4BAC-BC1D-6AFAFDC9478A",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(144000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "660B8356-1B6D-4548-A820-E90006A652B6",
+    "uuid": "44F41B6A-8BDF-477F-AF7C-AC9A0BC279D5",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(144000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "FCD30A8C-055F-4064-9925-1EB97DB634E8",
+    "uuid": "86886EF6-54B9-4C6B-84AE-57A1593F2607",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(144000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "C9AE2959-576A-46B5-9AA4-A2A1853B86FF",
+    "uuid": "7C285812-DFFC-4699-8AF8-C531943F5627",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(153000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "9E2F44C0-896F-48F2-9FC6-AAF4B0615DD2",
+    "uuid": "7D5CC414-649F-4D2E-8A4F-07277447A46D",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(153000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "5E2D077C-F8B8-4927-A602-FB263066E4B0",
+    "uuid": "F814D95A-8329-4200-B3EE-325D4A5BEFE5",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(153000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "74E2EF15-F47E-4587-BECD-D66655713D5F",
+    "uuid": "5D67D13D-C998-4F8E-9EB5-B3FDA74CFFB8",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(162000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "BEEFF417-FFF2-49F7-8E3D-59C3A4907A28",
+    "uuid": "A5E0A91F-9A2F-46A9-ACF4-FCFFD19C9816",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(162000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "B027D94A-5D16-45F1-843F-023D7B4DECE8",
+    "uuid": "C4230138-F125-4DE3-9F37-748723414415",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(162000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "0DDCBA9A-DEF3-4CEB-B0AE-29DFD9260D2B",
+    "uuid": "04339F88-8A55-48F5-B2BA-741CBDEB8E84",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(171000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "44DC2DB1-2F60-49D8-B4B3-F82A73A9799C",
+    "uuid": "60F83638-0641-4487-8FEF-E3C9CB9F0DA7",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(171000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "A824635B-5E7A-488A-8C47-81E211340A23",
+    "uuid": "36ECDB7A-10FE-40D1-8625-221B81217C3B",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(171000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "76642FA2-B6AC-4854-BE72-10BB172AF512",
+    "uuid": "518A1A48-BA0F-4836-B2A8-B2924FFFF551",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(180000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "069B4DD2-A1CF-4E4B-8829-E0E34E33588F",
+    "uuid": "4EF3BE6D-C6DF-479E-B1BE-AD3F6EAC4C86",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(180000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "7CDB92DF-99BD-47DC-A033-4213E8C960A5",
+    "uuid": "3B878BA4-E3B9-4A3D-8436-D530A2B33084",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(180000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "51A0B53E-7D89-49A0-A6FF-3491BDC9F520",
+    "uuid": "7FBFD9CA-A608-4A7F-8CAC-5497F9BE957E",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(189000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "B421053D-F9C9-49D9-B9EC-3D962D87D586",
+    "uuid": "D2B9AC19-FE92-4979-AD67-AEAFB2C1232D",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(189000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "1322D44D-19E7-4874-B031-2834020C0762",
+    "uuid": "6A16291D-142B-4D80-91B3-4B37B9F94146",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(189000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "2447A216-3375-476E-8DF0-28700527183E",
+    "uuid": "64E77F4D-9E12-4A91-96AF-FDBC6A267103",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(198000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "9D8F80B9-2F65-4C01-86D4-0939D9CCBC39",
+    "uuid": "EE0288A0-10BC-4246-8C71-8803B8436DEA",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(198000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "1E0059B8-A4AC-4DA2-84A5-E94DE6DC51B5",
+    "uuid": "F693920D-3703-4C3A-8826-CF2F3C47F309",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(198000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "BE4C95AD-5B98-4048-BC35-3F2FA28D0D8E",
+    "uuid": "2F8ABF96-B68D-481E-BFE4-8F1000D08166",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(207000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "34E058F6-6705-4453-A31C-FDA43D784609",
+    "uuid": "9292DD4E-CC23-4E26-AC12-89812D534982",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(207000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "E9B18683-97FC-407B-88BA-6E806BCF677E",
+    "uuid": "008B5F19-3595-4695-AC5A-9ACD327A0546",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(207000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "0059144E-B757-4BCE-806A-D8345EA4ABFB",
+    "uuid": "3753A6C2-49CB-4F20-A199-3A4DA4506F4A",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(216000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "9B163159-BCC2-4283-8F28-BA10B5FC491A",
+    "uuid": "5C393D15-B2A1-4C95-B5BE-FFDC6496A950",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(216000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "61B269A3-DF64-4F73-89FB-24B9A4A6196C",
+    "uuid": "088F67C9-0607-4428-B1AD-1C88A1F92A09",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(216000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "B9D56D19-B652-422B-A78C-2642D5B44D40",
+    "uuid": "70603E17-69E3-4362-AED7-77E91E578968",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(225000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "499A5440-1AE7-4B2C-A2FE-1B03B399CFE7",
+    "uuid": "EF978701-607D-410C-9B4A-91C816D581D4",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(225000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "A8A97DFC-88E0-4EAA-B73E-C31804E4748F",
+    "uuid": "C48EC5B5-2696-4C3D-ACCB-68A825EBE564",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(225000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "E294DB48-C965-4BDC-9F28-44EAAC2E6F41",
+    "uuid": "E4133E51-C6E2-472D-846A-7EEBE3AD5DE1",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(234000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "3D3FA29D-F4A2-4CF3-8633-2118A574D623",
+    "uuid": "FAA8F30E-A976-4B9F-A565-9A623EB6945D",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(234000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "E5416897-DA1A-4BDC-811C-E46A699249D3",
+    "uuid": "D3194FA3-5AC3-429B-B47A-AFDE925C244B",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(234000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "3938E806-F681-417E-ADBB-840831C49247",
+    "uuid": "52B62F2E-3D09-4F7D-9F5B-22E17ECD41AC",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(243000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "334B4417-AE92-489B-A103-C306ED4AE843",
+    "uuid": "1AFB069B-0CC3-4AD5-913F-D601F766BDB2",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(243000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "CF3CBBCC-2369-4318-855A-107E2DE1A4B3",
+    "uuid": "63579EB4-D61E-4664-9FAB-9319FD196035",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(243000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "F3686081-7411-4E3C-89B4-55FEAF748388",
+    "uuid": "84F35E36-5787-4916-B849-6E987A6CE7B2",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(252000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "5FC2971D-B98F-4CF7-8D1D-E0EB70B8C798",
+    "uuid": "6C7CC493-331A-41F7-8040-18C4CA037C71",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(252000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "1060EE2D-4296-4B59-B5C2-16D5FA866CDF",
+    "uuid": "3F76790B-B9BA-42C8-B4E6-30DEDBB8AD19",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(252000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "4BF0F256-2B3A-4D1C-9D1E-6A2B163881C1",
+    "uuid": "26F260A3-214F-4D5F-90B9-8FDBAE26BEE4",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(261000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "0D9078F6-839D-44BB-813B-38FE7DCC4FC9",
+    "uuid": "00289C37-57F1-4FC6-8037-E09669D710DF",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(261000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "4BCD809B-52DB-4F42-B5F0-7F0903501309",
+    "uuid": "F21EC961-8EB5-4B1C-A1EE-40F73494A077",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(261000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "4C48CD32-B73E-4919-BA42-C833D9A852F5",
+    "uuid": "4F62A546-EBDA-42FC-B1ED-265E79E5885D",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(270000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "015DA71C-372F-4950-83F9-459E02A3123E",
+    "uuid": "F614B90C-848A-4C41-A809-020498B85F1B",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(270000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "AA4F7A25-E6D3-4AB8-9C6A-9BB53D94B0F1",
+    "uuid": "AD2E81DA-C4C5-448F-BCD8-AB15A4D72272",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(270000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "82E759CF-F6F7-49F7-BC90-14C8A8939022",
+    "uuid": "CC5D5DF7-1F1E-4A6D-9A6F-D0D3EF03B95F",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(279000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "2D01C811-B949-46E9-AF46-F629917A6322",
+    "uuid": "80BF0FC8-42D7-4E25-B6C7-E43794B205F5",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(279000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "643089C6-279D-4016-B3C0-8C6162AD277A",
+    "uuid": "9438B103-1CA4-430F-AF56-92B129E474CC",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(279000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "1C55AE0E-9B0F-4D98-B1E2-2A6446C7D9DA",
+    "uuid": "38A3E1BF-F402-4B91-870C-A95881CFBFCA",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(288000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "5A6E4596-1646-4EE9-8919-EB27AC75DC6E",
+    "uuid": "D39D2549-6ADC-4EB8-AA63-7C480EA6BCE5",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(288000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "2FC2DFF4-F660-4D4E-9144-FFF8895244FC",
+    "uuid": "F69082AB-FDC0-46D3-8F19-E6BFEE5A3587",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(288000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "827A6BCC-2AE6-4398-8EFE-CC82DC4247F9",
+    "uuid": "4416D633-FF5E-4DF4-9AAE-1DF5A1B91786",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(297000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "000C5139-809A-4A4F-80B3-9A9D6A434B5D",
+    "uuid": "F8AEE4E7-4F08-4DDE-B887-C5C486AD13C2",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(297000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "4946A5AC-CD25-4DC2-9B3F-A38926517748",
+    "uuid": "B2C9C9AA-B647-4AF6-9160-7F1CF7C7D641",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(297000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "89149EC2-D59C-4FD2-801F-896E49A6FAE1",
+    "uuid": "1CABE1FF-FC06-4AB9-8C0F-9E767BAB14E9",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(306000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "97D203AD-ADC2-4514-99B4-72471F0F8FE7",
+    "uuid": "1331F2CF-388D-415D-8029-6E0CAB955974",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(306000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "5AA076D0-4100-494F-B641-6E1521E409B4",
+    "uuid": "3C5DBDA1-A8DF-452E-9F97-B3E3EB90327E",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(306000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "8A6D82CC-9741-4802-A0FD-FD14E8F5D23F",
+    "uuid": "87E40685-FDD3-4E84-B335-FFEED612AF56",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(315000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "C302A839-B65B-4EFF-BA94-FE4D93F8C180",
+    "uuid": "2FCD66FE-A82A-4A2F-813B-AF6698F35588",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(315000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "74DF005B-76A4-4B4D-B6BB-EDFA0E69EB93",
+    "uuid": "A8CF1225-CB72-447E-AF73-CF1BF708693F",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(315000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "937A2CD4-F0CA-4D0F-91D1-FF9FBDC51E61",
+    "uuid": "68A901B9-D5AE-412F-9F64-08614159377F",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(324000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "DADF98C3-56D9-40F7-A35C-8098F878A61F",
+    "uuid": "C285AD56-F9B2-4534-9A14-727C6DF267F8",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(324000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "38D0F848-6FDF-473E-B991-0F06CE22DBC9",
+    "uuid": "E41BF506-70A9-4121-9F83-7E7CAF4A82AB",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(324000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "D24C0E2C-958E-4820-9F86-37FC1777D448",
+    "uuid": "38DAEF1A-7ECE-4789-B190-77BA985314ED",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(333000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "9BE48BD4-D07D-4D20-BF5A-E71A15BB7D1C",
+    "uuid": "F798A3FE-CCD5-44B3-8C03-EB5AAD3931F4",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(333000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "E2DCF9E5-05B2-4DBD-8385-5946680C760B",
+    "uuid": "A341FE62-3F21-448B-B391-E231045CB4F6",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(333000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "8C4D0C90-C5AB-4F4E-8065-1C4D13B7BA37",
+    "uuid": "61D9285A-F8E1-4215-B5BB-19C5FD0630E6",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(342000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "EFC4ECDF-2979-476E-8A6E-4D98B8BB5785",
+    "uuid": "26E57290-B12B-4CCD-AE1D-C4F81EAF9948",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(342000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "B08A1DFA-6E7B-412E-AA02-FA1269629F33",
+    "uuid": "70E7A1FA-5CAF-4088-8640-915BC8B832A6",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(342000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "E75D2327-44D3-4DD2-8950-24ACCE638749",
+    "uuid": "C94F0F7B-F22A-4240-9CF0-9D5C26F1387D",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(351000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "758E8D82-048D-4A8E-8304-6BA25A0A2331",
+    "uuid": "8FBE980C-FDDF-4A30-B867-9F7A90D4B74F",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(351000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "CA9D2DDD-166E-4FE3-87E1-437AE83895C5",
+    "uuid": "0DD79860-CD4F-4B19-BD10-C485982A0109",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(351000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "44DC067E-8E3A-4571-8E0C-091E13ACC834",
+    "uuid": "0B070C8D-87D3-4634-8B2B-3D9EAC739D53",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(360000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "B8323561-80CC-414C-AF3E-3D5865C4BE45",
+    "uuid": "1029D9EE-FAC6-4359-AFAA-459DF7D478EA",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(360000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "C17A092C-7784-4204-9D90-1830C1F6EBF6",
+    "uuid": "DD17F0FC-515D-45C6-8FAD-ECAA8137D745",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(360000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "4F292EA8-F900-4840-A26B-6F38FB11B18C",
+    "uuid": "A1A3AA8A-ABEC-45B2-A31E-1B488F2ED37F",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(369000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "7979F2A5-3C3E-43EF-A93C-149730F032ED",
+    "uuid": "383AC78A-E443-48DA-98D8-B935DB6E0386",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(369000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "CEC2D03C-5114-4BB3-B516-B9D9DD5B1E5D",
+    "uuid": "7B556BC5-918E-482D-ADC3-8B8B671718E0",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(369000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "F3DDCE5F-9A26-4CA7-B93E-53E039226AE8",
+    "uuid": "E13B8095-23F3-4096-A1FE-77B004585A35",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(378000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "3351A603-4AFB-4392-B352-97A00BB3D7A6",
+    "uuid": "8E0FB630-C1C9-4DB5-B853-963A6E472810",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(378000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "564A5629-E5CC-4759-9FC1-B10431868AF7",
+    "uuid": "FE22A919-BF4E-469E-917A-84AFD4F6AE54",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(378000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "DBDB1E77-80FC-4645-8453-5638370A7B1C",
+    "uuid": "66018120-D62E-4887-98CD-20FAB22A4633",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(387000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "5583FCD3-E645-4272-8EA5-D11A80AB72C5",
+    "uuid": "2977094D-355F-46E8-991A-AF5EC225124B",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(387000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "5B01E326-A804-456E-8794-17AACEE1E59E",
+    "uuid": "D94590EB-94F2-422F-9153-850A12B15F25",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(387000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "B6C7575C-5519-479E-BA8B-0BECF907EDC7",
+    "uuid": "C9605C1C-C6FA-4FC0-911F-4D268ECD821F",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(396000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "6353E2C7-72ED-4018-915D-3AE3BDDF9E56",
+    "uuid": "30F6052E-21C0-41E0-BA01-98097D97DD41",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(396000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "A2C79677-8855-45D3-AC4E-BAFA4CEF2169",
+    "uuid": "7D0BA162-B8D1-4FA1-BBB3-8C67241FEAA7",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(396000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "3CB607C6-D086-4CBD-9A24-EE8AE1F1FC48",
+    "uuid": "70CA3B6E-CC20-44D3-BFE1-663211F3C353",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(405000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "362AC5AA-1D70-469C-971E-FEF7C5A0827E",
+    "uuid": "8B8A14B7-E97C-498C-9F1C-1C91C7E2677A",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(405000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "CA0B2EF6-E2C8-417D-83AE-88BDA7E8B999",
+    "uuid": "95D11F84-B473-4641-9685-B6B6F298C3BC",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(405000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "7D937E2E-64D6-41F9-BB45-E3C19904F4D2",
+    "uuid": "FA2D3228-5248-47AF-9D30-DEE98310EB7D",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(414000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "3D326336-A7DB-4CC5-9DEB-DF1D148F2FA5",
+    "uuid": "B34FF84C-07D4-4EB8-834C-99E4D0F3BF94",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(414000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "BE9D43CD-E2C5-4EB9-BB2B-BED84D50B9B0",
+    "uuid": "EB48835B-5FA9-402D-9F28-8BDD73CB7924",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(414000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "F18FD513-FCDB-40DC-81FB-A6B12B835955",
+    "uuid": "9923514E-0218-47C1-AA62-740B5CAF0F9E",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(423000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "658AF13E-BDC8-491D-AA47-5758C10EBEF0",
+    "uuid": "27C4F6D7-4F41-464F-A081-78F075C26852",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(423000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "0FFC8B98-5B30-4421-BAF5-00844482B406",
+    "uuid": "F323DC4E-554F-4342-99EB-EF5BDE550801",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(423000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "1A3E6C3E-CCC6-4B55-9FDE-33A917BC4EAF",
+    "uuid": "32951797-5078-4F8F-B3A9-6CEAA77E2E50",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(432000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "B4BF87A6-CF23-441A-B54E-38184A8F2CCA",
+    "uuid": "83D328F7-6E7A-4F69-BC65-A2D48A77C4D8",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(432000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "4D1823C8-CE12-482D-A2D7-5B23D1883C8C",
+    "uuid": "AC5180AE-9C1E-4964-BA6B-25EB349A126F",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(432000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "E0A02009-D208-4C89-9E2A-B90A8C161B82",
+    "uuid": "BE93022B-7DCC-4970-AB50-EB43CAA5F9B3",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(441000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "00DB45CB-D15D-4D8D-8740-14269C6E7E8D",
+    "uuid": "C73CB4EE-DC7E-4EFF-83A9-F8D36BC9354A",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(441000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "F9BFF402-CFC8-4C47-B94D-AD6B3EC3A304",
+    "uuid": "50CE3E54-E39E-45F6-8C86-F84953DEE19D",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(441000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "7B252B0A-8AA1-4427-B3D1-40B6C3DC0154",
+    "uuid": "C872901A-B1A7-4CDA-BD38-C85E9E39EA6A",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(450000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "3E2D1275-9461-4B78-8DF7-955FB9175162",
+    "uuid": "9DEDADDF-64E0-46B1-8F0F-16E63A3FA6D8",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(450000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "931385D1-1FE7-4017-83B4-544B5B9F3DBB",
+    "uuid": "B79572FE-4896-4CE5-ACC9-6B82C1CCE9B9",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(450000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "D26098B6-DB69-4511-A3E4-A66D4C0D76A9",
+    "uuid": "70199DE1-0F4E-4C96-A3D3-BD646450156D",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(459000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "6846D1ED-D7D3-418E-B898-25B760271140",
+    "uuid": "092E8B02-BFC9-406E-B0CF-C8BCB88067A0",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(459000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "2CAF81D1-D349-4DC6-9EE4-320A0D8C3E5F",
+    "uuid": "6C8C4027-9C88-4219-9403-0E3908CD942A",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(459000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "3AB38756-DC50-4516-B755-31FA330CFF37",
+    "uuid": "3C62DA04-72B4-4212-B1AF-D9415BBE4B64",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(468000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "6829DDA4-FCCF-4851-9D6C-093BFF1315A8",
+    "uuid": "364A5490-2388-49E9-9CE4-FB356FA27D9C",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(468000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "F712B0D1-9DEE-4F08-AC8C-5C796FD741AC",
+    "uuid": "DA3F9114-D2E6-41FA-BCE2-E5C678882527",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(468000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "51B1B44A-B6E9-41BE-A84F-767F8D22A66F",
+    "uuid": "096E622A-6F03-42B0-945A-F56284694531",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(477000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "50C1BEC2-D248-452D-944A-94FF416D5DB0",
+    "uuid": "E701A294-7BA6-411A-A902-CF96AB8A5C83",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(477000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "451BC19D-2878-4C60-B48C-65A8526E8706",
+    "uuid": "926F49FE-E862-4839-BD69-1EFAD9CBAD54",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(477000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "70C18DDE-0E85-40C0-9E57-F80AE06AACE6",
+    "uuid": "83BDC4C0-5A4F-47CB-BC3B-E0791446CA20",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(486000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "F2212382-3E99-44D4-8988-0ED5F68F657B",
+    "uuid": "CF9B6C37-7633-4AE9-9E09-CBA310408421",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(486000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "20D67564-9DF8-484A-B6B0-78D7E3B882D6",
+    "uuid": "A90E7C30-11C8-42A5-BFD8-63829FD52233",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(486000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "441E88FA-60E0-4552-9066-8CE5999C20BE",
+    "uuid": "2F96EDA6-A643-4455-B3E5-3AC106ACF10A",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(495000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "C7332698-BF4F-4D4B-888A-B6654F7EECDA",
+    "uuid": "74CA3BB4-7D19-4052-A9A0-C7F04CDBAD14",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(495000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "15A31661-89BE-4EBA-98B6-6FC5BB8EDCD2",
+    "uuid": "28B2BFFF-0EA7-40A8-A132-49752D4539D6",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(495000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "52EEAA08-1DE0-426C-A494-DC6A733F58EF",
+    "uuid": "3A5607F5-EC8F-4B51-8353-5F5E53E02E09",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(504000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "029A8BC1-F053-423F-8790-F7E3D40C9DF8",
+    "uuid": "300943D0-7629-47CA-B20D-46FD4398166F",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(504000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "0BA18E43-09EC-4364-951E-73D595A4C2A3",
+    "uuid": "362956DC-6D54-4E17-9F0D-BD73D27536FD",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(504000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "02CCDAD6-5C91-4D9E-A64F-B1152A698504",
+    "uuid": "42E984FE-B0B0-448B-A139-1E19A4FA696E",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(513000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "0B330E1B-0BEA-45A2-AD21-1101362E5FCC",
+    "uuid": "0686DDD7-9733-4062-BD50-F3165FB527F6",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(513000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "7A797285-A03B-4A36-B780-74B52DEB1085",
+    "uuid": "070F69C1-9ACD-4BC3-AA82-712144074E35",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(513000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "F795B451-D4EC-4AD7-88CF-A8B4C068D710",
+    "uuid": "9FEDF0BD-A3AC-46B1-884A-2E772C790662",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(522000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "1FD8F4D6-1893-46C0-860C-5AB9B99E2026",
+    "uuid": "5D8FA045-B8BD-4930-90BC-174848DDA87C",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(522000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "B3E90E54-CD22-441E-B1DC-D341A3E66103",
+    "uuid": "AFD2DA89-603E-4B2C-96AD-D767759C4C14",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(522000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "6C77A932-7699-452A-A738-21790959D21C",
+    "uuid": "0E28FA91-D66A-4AD6-AEB6-EDC758105C4C",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(531000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "00E44E30-C98A-4AE9-AB88-DEB7AFBD3833",
+    "uuid": "85F0D83B-4E4D-4C20-BAB2-C4EE0BAD9324",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(531000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "5D1BDAC5-E91A-4B41-8288-5B1BDC9DD756",
+    "uuid": "0E9B0775-CFD3-44B3-9ED0-BF9509091E64",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(531000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "69C89C07-2EBD-4061-BB8D-9632D42198F7",
+    "uuid": "F7A98860-BD6F-45A9-BB34-F225A664D404",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(540000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "8EB261B5-93A1-4084-BD10-73ECFBA84319",
+    "uuid": "824D9CD9-9AF1-4755-9AEB-B36EBD5986D5",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(540000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "CB3FE566-EF03-4A32-9119-BE894B61FD56",
+    "uuid": "0BF971CC-1493-471F-9F19-2D0F724535D7",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(540000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "DEB74686-C18C-4CB8-9945-24E0C58138C4",
+    "uuid": "C9BC5E8C-41C7-49FA-BFA6-3F0FDB53D8FB",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(549000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "868F3D95-8F05-403E-96FD-513E9DCB6707",
+    "uuid": "6CBF2E20-31AE-4861-A619-D083B4EF2ACD",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(549000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "37F8E2CA-98F8-418D-BF2C-F07FD14C3C69",
+    "uuid": "449E84A9-9391-4D36-9252-C6E16B152A91",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(549000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "F6FDCE4F-DAB7-4483-BFC7-85E3918E2910",
+    "uuid": "A7FBE613-3700-4850-A667-2381F1A942A6",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(558000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "C696C33A-569B-4DAC-86A4-C231930B3232",
+    "uuid": "B36EF3D1-FAE4-459E-A23E-C51796AAAF8C",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(558000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "4A6965B5-B2C1-45AB-85D5-D470C5EDD938",
+    "uuid": "0EE4C564-F6C5-4E4A-A9E7-1B09DDE2F9D2",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(558000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "CA426646-6594-4B8C-B136-B2D56CC69685",
+    "uuid": "2BDC18FC-A66E-4088-A23D-28A573EA43C3",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(567000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "673DB969-CA94-40A5-AB80-658E8E3EA023",
+    "uuid": "83AC8884-9B08-4512-A8B0-91D748719415",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(567000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "60DA364A-8D91-4A16-9A2A-A126028F53F2",
+    "uuid": "FC1691BA-5DCE-4751-82AA-F1D7472CA938",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(567000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "8DDB3B12-DDED-450A-88EC-281654341858",
+    "uuid": "F3F5BA3E-B22E-44BB-8CEB-1B5FFB0777FF",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(576000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "82524DB0-7679-4A85-B4B4-05849F1AE293",
+    "uuid": "CE266D86-B8B8-49E1-9288-2E56A8CB747F",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(576000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "41DFE6A7-01A8-4A0E-ABCC-2CBDC7C22E6E",
+    "uuid": "60589359-95BE-4E34-93B7-87301C788A4F",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(576000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "FA1B14C0-B0C9-40BB-81EA-09061C17005E",
+    "uuid": "CF6F96C7-FBF7-41CA-B28F-4176A0974ED2",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(585000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "ACB7923F-B2BE-4D9A-A0FF-E08DB941A90F",
+    "uuid": "4E8C292D-E8AD-4589-8064-65C54E4EEF13",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(585000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "E1B1F38B-AEE7-433C-9D14-432CC276C412",
+    "uuid": "2719C5F5-9880-4FFA-9AB0-4D4CD70877F3",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(585000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "CBF6B60C-97BB-4EFC-B608-26CAE72643E9",
+    "uuid": "7A993B3D-7EA4-4A96-ADFD-A09BBA378411",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(594000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "2DD87F8C-97FC-49F7-B8CB-99AF1EAF6AF5",
+    "uuid": "E8B4F62F-40D1-404E-8BD5-5E8D7EA27470",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(594000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "0DA3A99B-F7A2-4BC7-BF7A-F5E3E49D2454",
+    "uuid": "5101B467-FD14-431D-B7B0-C44C34A11AE5",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(594000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "832AFB00-C2F0-41B6-9CAE-4C34B5765BA6",
+    "uuid": "5AACDC43-2661-4F04-87C1-D5664D5163C6",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(603000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "5DFA2050-530A-4DB3-84EC-64C5B6C8C6B6",
+    "uuid": "6CA50CF4-017B-4F14-A2E3-C43E0E83165B",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(603000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "745062D6-6483-48FD-9558-C2AF454F2061",
+    "uuid": "4036BFE4-8673-428B-811C-A3F395D4C1EB",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(603000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "20D550B9-F602-4AA6-9947-9AF32DC791FB",
+    "uuid": "E6CB6033-2AF6-41AE-9645-EFF7649F4DD8",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(612000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "46EB148A-66B7-4B52-A950-58D3BE11F2AC",
+    "uuid": "E04F76C3-180D-40E1-AAD0-566F8764BC38",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(612000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "3A504E5E-BB1A-43D0-9FEF-C26DAB1222B8",
+    "uuid": "E300E7A3-315E-4586-9A58-3E4740586A3C",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(612000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "82BA1B8D-98ED-4825-B051-947ABC72B77D",
+    "uuid": "098D4CC8-0E59-4B3D-B1F5-5AF2FCBBC092",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(621000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "1D9681D0-94DC-40A4-90B7-B04F78F5AC6D",
+    "uuid": "8741F57D-CFAE-44E0-A594-DAAE273A23D1",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(621000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "E3A65FF2-FC27-412E-A10C-54563B3ABB4B",
+    "uuid": "8E760A68-348A-407A-A941-5BB033D4B37E",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(621000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "21728657-113E-4722-ADF5-25898DEBE103",
+    "uuid": "35E009D1-014D-4D95-8D95-4BF23497366A",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(630000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "000E88F1-7096-4475-9771-6E252BEF7160",
+    "uuid": "2EE6ABA4-DC08-44A6-9226-A161156FF6ED",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(630000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "39C4E3C5-CBC1-414D-8F55-A9B0C92E8D9C",
+    "uuid": "58542E25-A42D-4697-99DC-9BB9DB908A99",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(630000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "89D5BFA4-F7AA-4811-974D-569D0F0B2317",
+    "uuid": "EE682A1E-494F-4782-9DD4-EC911A75106A",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(639000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "549789B4-1AC1-4280-A01E-9A85066FA52D",
+    "uuid": "EABD00B7-D28E-4B7F-A84D-E1D86B427716",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(639000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "79B7BBCA-DDC1-4BB7-947E-D00C6FF7C277",
+    "uuid": "39BCF47A-FFC0-47B3-AAEE-606EBC6C7452",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(639000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "35ECA9D5-372F-430F-8617-345D5DCEF5D1",
+    "uuid": "01F9AC4D-85E1-4573-AFC5-002E52497183",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(648000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "CF661F75-5D3D-41F6-BBF5-0D628C5D0260",
+    "uuid": "2D4C6A93-A7E9-49AB-BC94-49F4888779AB",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(648000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "555A3605-4319-421B-B1F3-43EDDFA1E6DF",
+    "uuid": "AB31C636-8A4C-46F4-90F5-B2498400DF55",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(648000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "7B00A172-0772-466C-BCB8-FE407142F7A2",
+    "uuid": "EE343934-3732-4D7A-8AD5-3E7FEA0FFCA3",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(657000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "6E2ACD57-7A3A-4934-B75F-7043E92CD113",
+    "uuid": "3633379E-1B1E-4843-9731-EAD307C44762",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(657000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "A149A057-AB66-429F-A886-A55BA1558AA9",
+    "uuid": "D6282F44-9196-4842-9B74-5A5D7897D300",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(657000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "998F3A6B-D600-4FEE-B922-4B0B0F80987B",
+    "uuid": "E4818830-1CBE-4ABF-A308-3DF98F5C5704",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(666000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "425E5C8B-B842-4878-A335-F546F8DCAF9E",
+    "uuid": "C75D7014-8A76-4714-B5FE-8F3B782BC6C2",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(666000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "3C801BE4-964C-4DC7-B59F-B34DC46A082F",
+    "uuid": "CF31EE2B-A89A-406B-AA45-9BDE0D916817",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(666000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "7B66BFCC-B457-4013-8D17-1577B2EC7366",
+    "uuid": "015A7953-B031-4F72-AB07-A42A79B46F70",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(675000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "4CECE6F6-50F3-4E5A-99B1-FD0EA65731A9",
+    "uuid": "71175914-BD48-4202-B635-D216E780FE81",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(675000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "A05F3856-7EFB-45F7-BF17-BFC31E4C1A34",
+    "uuid": "F3322ABD-1B2B-461C-B959-3EF2D4AD3DAB",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(675000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "0253ABF9-E612-4978-BA98-DC5410EC519D",
+    "uuid": "3DF1BBF7-CAFE-4DA0-BD06-2D125DA62CDB",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(684000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "CDF24660-E5A3-45C7-91D2-AA800CC51D27",
+    "uuid": "E5B4ABC6-3B20-44BD-86B4-E86B684779F7",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(684000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "A30E192C-95CB-4C48-98B9-F46C84DAAE4E",
+    "uuid": "F8153D04-854D-48EB-9E44-B559A0865241",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(684000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "53BCD60B-EE18-4E15-AC05-7AE4023C6ECC",
+    "uuid": "1D0BB5C2-B897-4F59-9F19-2BEFCFDA2013",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(693000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "A7BC7205-E74F-45EB-9924-2EA2DBB895C8",
+    "uuid": "B6B198EB-D4B8-4CE2-AF5D-3341C8F2D5E3",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(693000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "5E0ECCDD-1FC0-4438-92E7-F197EA696BDF",
+    "uuid": "AA67F5E7-D77A-4883-A4D1-40807C9498A1",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(693000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "7E2EB792-92C4-45D6-A69A-FC96EB4E7345",
+    "uuid": "C5955E26-CDB8-44DE-A681-9305D2768D99",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(702000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "2393BD29-DB0A-4520-AD2C-951C3C0FCAEC",
+    "uuid": "6B0D5D99-85D0-46FF-B6EA-1BC79510EB71",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(702000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "464C4A07-B607-4ED9-8EF1-E5478D713822",
+    "uuid": "C3B88700-0EE4-4D0D-AD1F-46C1A92BDE36",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(702000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "EE2ED474-2A5A-474F-BDAC-4C6B0C0E243E",
+    "uuid": "F1042FB1-68EC-4805-AAE9-5CA156CF1B8A",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(711000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "88C57823-004C-4A46-BF97-62F6DA5DB31D",
+    "uuid": "AA047076-8B85-4DB0-88E6-068CC0F2B009",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(711000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "8548A4A5-A6DF-4559-BF23-23FA4C66887A",
+    "uuid": "00388610-9D8A-4694-BA6F-F2EA6666292D",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(711000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "AD00FDBC-0040-4423-AE57-FD3BD6DA8316",
+    "uuid": "B05F8804-CC82-4546-8410-8CE898494ABF",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(720000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "555A7B34-D8A0-4E8B-94B4-57FF1ABE2144",
+    "uuid": "D7CCA958-DA1B-49D1-9197-2DE7A131F447",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(720000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "D367D6EC-098B-4E06-81DE-107D726A3626",
+    "uuid": "A860508E-2022-4C3A-85AF-11821EE1E12D",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(720000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "EA6F3F28-0C18-4F21-A7B2-AC397D086528",
+    "uuid": "0C5D1B9B-F5B6-4935-91EC-605FC4A23989",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(729000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "FA3F8F12-6464-4365-82A7-461C14600B51",
+    "uuid": "A8829308-FD7F-4551-A00E-623B8C084213",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(729000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "C9EEEE02-1A79-4128-AE6D-0721D31DEA81",
+    "uuid": "2024DF7B-020B-463D-A80E-449BD7AF6BAD",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(729000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "3A491D85-4563-483A-AF25-246C4BF1A80F",
+    "uuid": "263A1BE0-64E6-455B-8270-7E297637E545",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(738000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "ED2094C2-95FC-4612-A312-9A157590C535",
+    "uuid": "E39A8027-89D3-48FA-AFC8-5080558F5CCF",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(738000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "2A35C1D3-CEC5-4C43-A0BC-168FE6CE4959",
+    "uuid": "F43DDDF4-9E94-4408-935C-7397C54A8F4A",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(738000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "AC3F2E64-DB45-4F5F-8ACE-1C511DB94821",
+    "uuid": "EFCCC78E-D3BE-48AE-B09A-F2F646AA8E07",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(747000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "953F639F-944D-4BC7-A078-633015F16D56",
+    "uuid": "56775D88-34B6-4DD2-972C-F11539966656",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(747000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "37B81BA6-3F73-4095-A207-40B78ABBDEC6",
+    "uuid": "943BC28D-5412-4B00-86D4-647B246E91DA",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(747000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "959D8CE8-6D8C-4CB6-B453-95B46B49276F",
+    "uuid": "AA171B65-A3CA-4E19-BFCE-4DA2EAE32C96",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(756000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "F5E07C59-0A83-4DFD-B25A-0DA9606D886C",
+    "uuid": "3A32E3E6-2072-4A4B-9BA3-567DEAA434BA",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(756000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "FF8E449C-A00B-457B-B537-98DA84FC602E",
+    "uuid": "39CB5433-0D54-4E4F-8AB0-4FDCF02EC5F5",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(756000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "06C9266C-BB40-45D9-B407-A4EE008E41ED",
+    "uuid": "737E4164-4780-46A3-92BE-227C6599CBA2",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(765000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "6D5999E7-1000-4431-A827-03E1DAC09D12",
+    "uuid": "16E9E5D5-CC20-4DC1-AA84-04BF8744706F",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(765000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "E15283B0-46A0-4B7C-BFB2-06DBE592DBAB",
+    "uuid": "E61CE761-9C41-44DD-B21D-CEC2C57D8093",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(765000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "6188A4B0-CF1F-4F5D-BC46-C7B6E72266C9",
+    "uuid": "6798EBA5-96FD-4CE2-9F68-484A13E87C96",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(774000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "37E903E1-A42C-419F-A6D9-597E4ED68932",
+    "uuid": "3AD0808D-6650-41E4-A593-08CA8928D64F",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(774000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "C20E1AAB-E9F9-4146-BB01-AA9A65025A02",
+    "uuid": "914084B3-DB62-42C0-938D-1FD88F950C0E",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(774000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "A34721C5-6B8F-48DF-AD8F-EE603C863D68",
+    "uuid": "B60C69A5-310B-40AE-B725-1631E5E30CD0",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(783000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "34517A4F-75A8-4C58-B626-0F1B67B1315D",
+    "uuid": "DD7BE4DD-8004-4258-BBC2-24A17D919E7F",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(783000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "091022BE-9654-4EE7-96D3-C35843063BDD",
+    "uuid": "8C597B61-05E2-484C-A204-E0F5103BF278",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(783000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "A2699F4E-E6E7-40CC-BD11-7C7D8FA555CD",
+    "uuid": "F205B7A4-1174-40F7-A346-BE2C7B15358F",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(792000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "00BB7E76-5B64-4A9B-92F5-61AED9ABA9D2",
+    "uuid": "18C2A9AD-4513-4BF4-A06A-F0D26449CAEC",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(792000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "679DE67E-50C6-4C4A-8D32-03BDA8A80018",
+    "uuid": "ECDA0071-CF00-4034-9FA5-5E72BAC13868",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(792000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "A96CE05A-09CF-4566-8C76-0854E6D38C9D",
+    "uuid": "C570F064-034D-4D68-852E-C541C68199B1",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(801000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "63F9BB6A-AD65-45A4-8BD0-4241910BCAB3",
+    "uuid": "7EF1FBEB-4518-428F-9DA3-7A9E71EE43A1",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(801000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "4FE04DE5-D7A2-4F0E-8965-D794985BEF49",
+    "uuid": "E7B5CD10-8447-4519-BB25-64D4578C5FCB",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(801000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "2B33B3A3-30E9-46F3-BF34-E897C3E676F4",
+    "uuid": "2511E890-FD2E-42FA-A78E-5A3ED6A96BA8",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(810000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "4EA5D018-AAE1-4B86-8FC6-37BE961B4E6C",
+    "uuid": "AA8BEB64-EDF3-4C8E-816D-1F19963CBF21",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(810000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "58225B24-942B-4CBA-B81A-2BC632C6B829",
+    "uuid": "C16B51C6-2E8F-43A3-83B8-B381EA2F34CA",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(810000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "4AA8CB52-7138-435F-9121-4C35BBFD35B8",
+    "uuid": "4722985B-E849-454F-8B45-149CE78D86C3",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(819000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "60F592B2-FB30-46B4-A87A-D53F34CEE29E",
+    "uuid": "A8BC252A-26EC-4E60-8D38-A63463DFDE9A",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(819000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "24E63F7F-A1ED-4D80-B0F4-E0C475FC5078",
+    "uuid": "D06616CD-B15D-4295-A664-F30E0B14EBB5",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(819000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "23E2A2A2-41F8-46AC-8512-D772B12CBADD",
+    "uuid": "FD09E3E7-9B28-454A-8408-D6125B50BAB7",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(828000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "0D165CF9-3657-4AE2-B8CA-780B549D8967",
+    "uuid": "5C8367B5-D956-484F-AC09-B6D42C14367C",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(828000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "DD9FAE29-8B9D-4334-9EE1-B7DFAA0A2EF5",
+    "uuid": "D8261EF4-89E9-444B-95A9-A883DF7E5E80",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(828000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "3CCCAA8D-125F-4E77-AF3A-47BAC837B33F",
+    "uuid": "9C3BFDD7-27C5-47AD-BA73-2C95922C5A56",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(837000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "6EAA5195-5157-42B4-A664-6C90ADB033F6",
+    "uuid": "F2FCB957-6AFA-42F7-842D-4F45F8979830",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(837000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "5D9EE9EB-B50E-46E6-9513-ADD26C56D672",
+    "uuid": "506AA416-B5C6-4C85-971D-CADC3DE04F18",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(837000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "B6FE85D2-B3D6-4AE8-BE16-B7E1A94B4902",
+    "uuid": "760FAD03-0A6B-43E9-8E23-2C012795048C",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(846000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "D665C9E5-6254-471D-858E-A7A3CD93CB87",
+    "uuid": "F3AB4B96-C891-419E-A00F-8FF0860C0FD9",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(846000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "38294CA6-4C97-478D-946F-1CCAB02539A4",
+    "uuid": "CA507A60-EB2E-4424-8CF1-EEE7FC3DE3E9",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(846000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "27B4002D-AB3C-405E-B0FE-09871BD9B7D6",
+    "uuid": "72F989A0-04D5-43AA-AD69-16469B86ACB1",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(855000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "425B2457-7930-408D-B861-822FB343C1DD",
+    "uuid": "89F77127-5964-4C12-AC45-916BCA5712A3",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(855000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "CD598D1C-053A-458F-9E3C-7E1A93325818",
+    "uuid": "930F2E33-CF38-465B-945C-585911F81554",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(855000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "E73002DF-D984-467D-AC00-3F6E5B0D12B8",
+    "uuid": "4650B8B3-9B45-496B-88D3-6901DC97C7C4",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(864000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "30892D3B-F557-41B8-9861-6E8CC062339E",
+    "uuid": "DBE52173-25EE-488E-8802-2E8D179E16E0",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(864000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "158A9C90-F29D-4BB6-950D-DE31E40F6A65",
+    "uuid": "901F8848-0987-416B-BDA5-D97E6A366987",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(864000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "58E9E4E6-CABE-4133-A27C-9FFBBB673DA2",
+    "uuid": "E94B233F-A075-41CC-99D8-302D08B6DCD3",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(873000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "3D246BBF-EC91-4F5C-A78D-1A20E5E3CDAA",
+    "uuid": "1615AEBF-3C5D-4F43-A6B6-4940F3E7A752",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(873000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "D2685918-9022-4D5E-BDF6-55D117334E96",
+    "uuid": "FDFC1AE0-916F-4408-AFB5-F0B9C37FD552",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(873000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "55C73868-699E-4CD2-8CAC-991C4486CEF1",
+    "uuid": "56967F47-F340-4E16-BD84-AA57774D783C",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(882000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "B4B03F4B-A0B9-40EA-BAE9-87D9F71158F8",
+    "uuid": "BEFE20A0-6F7D-4707-A4DD-EAF8CC944702",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(882000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "6402CA7A-A65B-4FC7-9525-122875CBA35C",
+    "uuid": "AFE22874-B378-48CF-BB72-8DC748B8F8F6",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(882000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "A8A0113A-A3C4-476B-8348-FA14BBE36A22",
+    "uuid": "6A88E7AB-4593-45BE-B9A3-46D09AA9A08F",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(891000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "417EB6A8-493A-4C96-BAA0-9CBBE3DFD442",
+    "uuid": "7A0D9A0E-28D8-4416-9604-6D533709BC94",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(891000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "2E9CA7A9-F9BC-4A18-A4B7-C524F5914E83",
+    "uuid": "89F31C1F-2C7B-4621-9D1A-8063CB80B457",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(891000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "41E70808-0BA6-4443-830C-83CB5D375304",
+    "uuid": "B49FC27A-2F11-4D3A-B2CF-F1AE8D6AB89C",
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons(900000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "CA811D90-B861-4F35-9530-755C131CFE96",
+    "uuid": "3BAFEFBD-2E90-4473-9842-574DBB8F3BCB",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(900000+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ,{ 
-    "uuid": "D2A1D0B8-F515-4420-97FC-143462866C08",
+    "uuid": "9092290B-DD28-41EE-8C2A-4CCDE6F97071",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons(900000+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }
 ];

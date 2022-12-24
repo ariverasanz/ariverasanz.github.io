@@ -1,6 +1,6 @@
 <HTML>
     <head>
-        <title>v0.30</title>
+        <title>v0.31</title>
         <script>
             Date.prototype.addMilisecons = function(ms) {
                 this.setTime(this.getTime() + ms);
@@ -20,9 +20,6 @@
             const disposeMiliseconds = 1000;
 
             window.onload = function () {
-                console.log(ObjPL);
-                player(ObjPL);
-
                     (function () {
                         var old = console.log;
                         var logger = document.getElementById('log');
@@ -37,6 +34,8 @@
                             logger.innerHTML += '<br>';
                         }
                     })();
+                console.log("Initiating");
+                player(ObjPL);
             }
 
             async function player(objPlaylist){
@@ -124,17 +123,17 @@
             }
 
             function disposeContent(content){
-                if (content.mime == 'video/mp4')
-                    return true ; //scheduleVideo(content)
-                else if (content.mime == 'image/jpeg')
-                    return true; //scheduleImage(content);
+                const objParent = document.getElementById(content.where);
+                const objElement = document.getElementById(content.uuid);
+                if (objElement) if (objParent)
+                    objParent.removeChild(objElement);
             }
 
             async function scheduleContent(content){
                 precacheContent(content);
                 await waitUntil(new Date(content.when));
                 playContent(content);
-                await waitUntil(new Date(content.when).addMilisecons(disposeMiliseconds));
+                await waitUntil(new Date(content.when).addMilisecons(disposeMiliseconds).addMilisecons(parseInt(content.duration)));
                 disposeContent(content);
             }
 

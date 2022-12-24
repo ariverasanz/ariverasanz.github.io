@@ -18,21 +18,24 @@ do
     "src": "image3.jpg", 
     "mime": "image/jpeg", 
     "when":  new Date(new Date().addMilisecons('${j}')).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }' 
   echo ',{ 
     "uuid": "'$(uuidgen)'",
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons('${j}'+3000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }' 
   echo ',{ 
     "uuid": "'$(uuidgen)'",
     "src": "CountDown10s.webm", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons('${j}'+6000)).toISOString(), 
-    "where": "box" 
+    "where": "box",
+    "duration": "3000"
   }' 
 done
 
