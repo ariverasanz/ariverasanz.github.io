@@ -12,7 +12,7 @@ echo '[{
 
 for i in {1..100}   # you can also use {0..9}
 do
-  j=$(expr ${i} '*' 6000)
+  j=$(expr ${i} '*' 9000)
   echo ',{ 
     "uuid": "'$(uuidgen)'",
     "src": "image3.jpg", 
@@ -25,6 +25,13 @@ do
     "src": "CountDown10s.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons('${j}'+3000)).toISOString(), 
+    "where": "box" 
+  }' 
+  echo ',{ 
+    "uuid": "'$(uuidgen)'",
+    "src": "CountDown10s.webm", 
+    "mime": "video/mp4", 
+    "when":  new Date(new Date().addMilisecons('${j}'+6000)).toISOString(), 
     "where": "box" 
   }' 
 done
