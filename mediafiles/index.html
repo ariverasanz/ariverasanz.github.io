@@ -20,21 +20,28 @@
             const disposeMiliseconds = 1000;
 
             window.onload = function () {
-                    (function () {
-                        var old = console.log;
-                        var logger = document.getElementById('log');
-                        console.log = function (...messages) {
-                            for (let message of messages){
-                                if (typeof message == 'object') {
-                                    logger.innerHTML += (JSON && JSON.stringify ? JSON.stringify(message) : message);
-                                } else {
-                                    logger.innerHTML += message;
-                                }
+
+                const debug=new URLSearchParams(window.location.search).get("debug")=="true";
+                if (debug) {
+                    var old = console.log;
+                    var logger = document.getElementById('log');
+                    console.log = function (...messages) {
+                        for (let message of messages){
+                            if (typeof message == 'object') {
+                                logger.innerHTML += (JSON && JSON.stringify ? JSON.stringify(message) : message);
+                            } else {
+                                logger.innerHTML += message;
                             }
-                            logger.innerHTML += '<br>';
                         }
-                    })();
-                console.log("Initiating");
+                        logger.innerHTML += '<br>';
+                    }
+                    console.log("Debug mode = true");
+                }
+                else {
+                    console.log("Debug mode = false");
+                }
+                console.log("Initiating.");
+                
                 player(ObjPL);
             }
 
