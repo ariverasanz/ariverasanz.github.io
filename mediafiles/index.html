@@ -1,6 +1,6 @@
 <HTML>
     <head>
-        <title>v0.31</title>
+        <title>v0.32</title>
         <script>
             Date.prototype.addMilisecons = function(ms) {
                 this.setTime(this.getTime() + ms);
@@ -94,8 +94,8 @@
                     const box = document.getElementById(content.where);
                     box.appendChild(newElement);
                 }
-                newElement.style.width="100px";
-                newElement.style.height="100px";
+                newElement.style.width="100%";
+                newElement.style.height="100%";
             }
 
             function playContent(content){
@@ -126,9 +126,9 @@
                         }
                     }
                 }
-                console.log(objElement.width);
-                objElement.style.width="100px";
-                objElement.style.height="100px";
+                // console.log(objElement.width);
+                // objElement.style.width="100%";
+                // objElement.style.height="100%";
             }
 
             function disposeContent(content){

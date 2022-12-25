@@ -31,7 +31,7 @@ do
   }' 
   echo ',{ 
     "uuid": "'$(uuidgen)'",
-    "src": "CountDown10s.webm", 
+    "src": "sample_1920x1080.mp4", 
     "mime": "video/mp4", 
     "when":  new Date(new Date().addMilisecons('${j}'+6000)).toISOString(), 
     "where": "box",
