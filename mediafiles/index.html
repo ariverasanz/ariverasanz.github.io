@@ -64,32 +64,37 @@
             function precacheContent(content){
                 if (content.mime == 'video/mp4'){
                     var newElement = document.createElement('video');
+                    var newSource = document.createElement('source');
                     newElement.id = content.uuid;
+                    newSource.type = 'video/mp4';
+                    newSource.src = content.src;
                     newElement.muted = 'muted'
                     newElement.preload = 'auto';
                     newElement.autoplay = false;
-                    newElement.src = content.src;
                     newElement.style.position = "absolute";
                     newElement.style.zIndex = "1";
-                    newElement.style.visibility = 'hidden';
+                    newElement.style.display = "none";
                     //set video to stop on last frame
                     newElement.addEventListener('ended', function() {
                         this.pause();
                         this.currentTime = this.duration;
                     }, false);
+                    newElement.appendChild(newSource)
                     const box = document.getElementById(content.where);
                     box.appendChild(newElement);
                 }
                 else if (content.mime == 'image/jpeg'){
                     var newElement = document.createElement('img');
                     newElement.id = content.uuid;
-                    newElement.src = content.src;
                     newElement.style.position = "absolute";
                     newElement.style.zIndex = "1";
-                    newElement.style.visibility = 'hidden';
+                    newElement.style.display = "none";
+                    newElement.src = content.src;
                     const box = document.getElementById(content.where);
                     box.appendChild(newElement);
                 }
+                newElement.style.width="100px";
+                newElement.style.height="100px";
             }
 
             function playContent(content){
@@ -100,11 +105,11 @@
                     for (const child of objElement.parentElement.children) {
                         if (child.id == objElement.id) {
                             child.style.zIndex = 2;
-                            child.style.visibility = 'visible';
+                            child.style.display = "block";
                         }
                         else {   
                             child.style.zIndex = 1;
-                            child.style.visibility = 'hidden';
+                            child.style.display = "none";
                         }
                     }
                 }
@@ -112,14 +117,17 @@
                     for (const child of objElement.parentElement.children) {
                         if (child.id == objElement.id) {
                             child.style.zIndex = 2;
-                            child.style.visibility = 'visible';
+                            child.style.display = "block";
                         }
                         else {   
                             child.style.zIndex = 1;
-                            child.style.visibility = 'hidden';
+                            child.style.display = "none";
                         }
                     }
                 }
+                console.log(objElement.width);
+                objElement.style.width="100px";
+                objElement.style.height="100px";
             }
 
             function disposeContent(content){
