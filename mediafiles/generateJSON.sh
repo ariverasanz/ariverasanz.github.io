@@ -23,7 +23,7 @@ do
   }' 
   echo ',{ 
     "uuid": "'$(uuidgen)'",
-    "src": "offline.html", 
+    "src": "html5up-dimension/index.html", 
     "mime": "text/html", 
     "when":  new Date(new Date().addMilisecons('${j}'+3000)).toISOString(), 
     "where": "box",
