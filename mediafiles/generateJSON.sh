@@ -23,8 +23,8 @@ do
   }' 
   echo ',{ 
     "uuid": "'$(uuidgen)'",
-    "src": "CountDown10s.mp4", 
-    "mime": "video/mp4", 
+    "src": "offline.html", 
+    "mime": "text/html", 
     "when":  new Date(new Date().addMilisecons('${j}'+3000)).toISOString(), 
     "where": "box",
     "duration": "3000"

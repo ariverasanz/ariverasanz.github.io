@@ -101,6 +101,16 @@
                     const box = document.getElementById(content.where);
                     box.appendChild(newElement);
                 }
+                else if (content.mime == 'text/html'){
+                    var newElement = document.createElement('iframe');
+                    newElement.id = content.uuid;
+                    newElement.style.position = "absolute";
+                    newElement.style.zIndex = "1";
+                    newElement.style.display = "none";
+                    newElement.src = content.src;
+                    const box = document.getElementById(content.where);
+                    box.appendChild(newElement);
+                }
                 newElement.style.width="100%";
                 newElement.style.height="100%";
             }
@@ -122,6 +132,18 @@
                     }
                 }
                 else if (content.mime == 'image/jpeg'){
+                    for (const child of objElement.parentElement.children) {
+                        if (child.id == objElement.id) {
+                            child.style.zIndex = 2;
+                            child.style.display = "block";
+                        }
+                        else {   
+                            child.style.zIndex = 1;
+                            child.style.display = "none";
+                        }
+                    }
+                }
+                else if (content.mime == 'text/html'){
                     for (const child of objElement.parentElement.children) {
                         if (child.id == objElement.id) {
                             child.style.zIndex = 2;
